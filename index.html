@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Space Boa Assets.loader.js";
+      var loaderUrl = buildUrl + "/WebGL Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Space Boa Assets.data.gz",
-        frameworkUrl: buildUrl + "/Space Boa Assets.framework.js.gz",
-        codeUrl: buildUrl + "/Space Boa Assets.wasm.gz",
+        dataUrl: buildUrl + "/WebGL Build.data",
+        frameworkUrl: buildUrl + "/WebGL Build.framework.js",
+        codeUrl: buildUrl + "/WebGL Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Space Boa",
@@ -85,7 +85,7 @@
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-      canvas.style.background = "url('" + buildUrl + "/Space Boa Assets.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/WebGL Build.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
